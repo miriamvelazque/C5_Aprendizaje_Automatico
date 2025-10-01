@@ -48,12 +48,12 @@ Este proyecto forma parte de la clase 5 del curso de Aprendizaje Automático. El
 | Sensible a escalado  | Sí                        | No                          |
 | Visualización        | Matriz de confusión       | Matriz + Árbol de decisión  |
 
-![Comparación de precisión](visuales/comparacion_precision.png)
-
 ---
 
-## 📝 Conclusión
+## Conclusión
 
-Ambos modelos demostraron buen rendimiento sobre el Zoo Dataset. El Árbol de Decisión se destacó por su capacidad de interpretación y visualización
+Ambos modelos muestran fortalezas distintas: K-NN destaca en clases bien definidas, logrando predicciones perfectas en varias categorías. 
+Sin embargo, su dependencia en la proximidad lo vuelve vulnerable en clases con vecinos diversos, como la clase 6. 
+El Árbol de Decisión ofrece una mejor generalización en clases ambiguas, como la 6 y la 2, aunque presenta confusiones entre clases similares como la 4 y la 5. El Árbol de Decisión se destacó por su capacidad de interpretación y visualización.
 
 
