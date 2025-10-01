@@ -6,7 +6,7 @@ Este proyecto forma parte de la clase 5 del curso de Aprendizaje Automático. El
 
 ---
 
-## 🔍 Dataset Utilizado
+## Dataset Utilizado
 
 - **Nombre**: Zoo Dataset
 - **Fuente**: UCI Machine Learning Repository
@@ -15,7 +15,7 @@ Este proyecto forma parte de la clase 5 del curso de Aprendizaje Automático. El
 
 ---
 
-## 🧪 Modelo 1: K-Nearest Neighbors (K-NN)
+## Modelo 1: K-Nearest Neighbors (K-NN)
 
 - **Preprocesamiento adicional**: Escalado de características con `StandardScaler`
 - **Hiperparámetro**: `n_neighbors = 5`
@@ -27,7 +27,7 @@ Este proyecto forma parte de la clase 5 del curso de Aprendizaje Automático. El
 
 ---
 
-## 🌳 Modelo 2: Árbol de Decisión
+## Modelo 2: Árbol de Decisión
 
 - **Preprocesamiento**: No requiere escalado
 - **Visualización**: Árbol generado con `plot_tree`
@@ -39,7 +39,7 @@ Este proyecto forma parte de la clase 5 del curso de Aprendizaje Automático. El
 
 ---
 
-## 📊 Comparativa de Modelos
+## Comparativa de Modelos
 
 | Métrica               | K-NN                      | Árbol de Decisión           |
 |----------------------|---------------------------|-----------------------------|
