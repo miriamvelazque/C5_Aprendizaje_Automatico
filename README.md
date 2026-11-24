@@ -20,7 +20,7 @@ Este proyecto forma parte de la clase 5 del curso de Aprendizaje Automático. El
 - **Preprocesamiento adicional**: Escalado de características con `StandardScaler`
 - **Hiperparámetro**: `n_neighbors = 5`
 - **Evaluación**:
-  - Precisión: `0.93` (ejemplo, reemplazar con tu valor real)
+  - Exactitud (accuracy) en test: **0.90**
   - Matriz de confusión: visualizada con `seaborn`
 - **Ventajas**: Simplicidad, buen rendimiento
 - **Desventajas**: Sensible al escalado, difícil de interpretar
@@ -32,7 +32,7 @@ Este proyecto forma parte de la clase 5 del curso de Aprendizaje Automático. El
 - **Preprocesamiento**: No requiere escalado
 - **Visualización**: Árbol generado con `plot_tree`
 - **Evaluación**:
-  - Precisión: `0.96` (ejemplo, reemplazar con tu valor real)
+  - Exactitud (accuracy) en test: **0.94**
   - Matriz de confusión: visualizada con `seaborn`
 - **Ventajas**: Alta interpretabilidad, visualización clara
 - **Desventajas**: Puede sobreajustar si no se regula
@@ -41,9 +41,12 @@ Este proyecto forma parte de la clase 5 del curso de Aprendizaje Automático. El
 
 ## Comparativa de Modelos
 
+![Comparación de exactitud](visuals/comparacion_exactitud.png)
+
+
 | Métrica               | K-NN                      | Árbol de Decisión           |
 |----------------------|---------------------------|-----------------------------|
-| Precisión            | 0.93                      | 0.96                        |
+| Exactitud (test)     | 0.90                      | 0.94                        |
 | Interpretabilidad    | Baja                      | Alta                        |
 | Sensible a escalado  | Sí                        | No                          |
 | Visualización        | Matriz de confusión       | Matriz + Árbol de decisión  |
@@ -57,3 +60,8 @@ Sin embargo, su dependencia en la proximidad lo vuelve vulnerable en clases con 
 El Árbol de Decisión ofrece una mejor generalización en clases ambiguas, como la 6 y la 2, aunque presenta confusiones entre clases similares como la 4 y la 5. El Árbol de Decisión se destacó por su capacidad de interpretación y visualización.
 
 
+
+
+---
+
+**Autora:** Miriam Alicia Velazque · Tecnicatura Superior en Ciencia de Datos e IA (Politécnico Malvinas Argentinas)
